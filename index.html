@@ -1,1 +1,390 @@
 
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>What is Vaarn?</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Anonymous+Pro">
+  <link rel="stylesheet" type="text/css" href="css/vov.css">
+<style type="text/css">.docsify-pagination-container{display:flex;flex-wrap:wrap;justify-content:space-between;overflow:hidden;margin:5em 0 1em;border-top:1px solid rgba(0,0,0,.07)}.pagination-item{margin-top:2.5em}.pagination-item a,.pagination-item a:hover{text-decoration:none}.pagination-item a{color:currentColor}.pagination-item a:hover .pagination-item-title{text-decoration:underline}.pagination-item:not(:last-child) a .pagination-item-label,.pagination-item:not(:last-child) a .pagination-item-subtitle,.pagination-item:not(:last-child) a .pagination-item-title{opacity:.3;transition:all .2s}.pagination-item:last-child .pagination-item-label,.pagination-item:not(:last-child) a:hover .pagination-item-label{opacity:.6}.pagination-item:not(:last-child) a:hover .pagination-item-title{opacity:1}.pagination-item-label{font-size:.8em}.pagination-item-label>*{line-height:1;vertical-align:middle}.pagination-item-label svg{height:.8em;width:auto;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1px}.pagination-item--next{margin-left:auto;text-align:right}.pagination-item--next svg{margin-left:.5em}.pagination-item--previous svg{margin-right:.5em}.pagination-item-title{font-size:1.6em}.pagination-item-subtitle{text-transform:uppercase;opacity:.3}</style><style>
+.sidebar {
+  padding-top: 0;
+}
+
+.search {
+  margin-bottom: 20px;
+  padding: 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.search .input-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.search .results-panel {
+  display: none;
+}
+
+.search .results-panel.show {
+  display: block;
+}
+
+.search input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0.6em 7px;
+  font-size: inherit;
+  border: 1px solid transparent;
+}
+
+.search input:focus {
+  box-shadow: 0 0 5px var(--theme-color, #42b983);
+  border: 1px solid var(--theme-color, #42b983);
+}
+
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button,
+.search input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.search input::-ms-clear {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.search .clear-button {
+  cursor: pointer;
+  width: 36px;
+  text-align: right;
+  display: none;
+}
+
+.search .clear-button.show {
+  display: block;
+}
+
+.search .clear-button svg {
+  transform: scale(.5);
+}
+
+.search h2 {
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.search a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search .matching-post {
+  border-bottom: 1px solid #eee;
+}
+
+.search .matching-post:last-child {
+  border-bottom: 0;
+}
+
+.search p {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.search p.empty {
+  text-align: center;
+}
+
+.app-name.hide, .sidebar-nav.hide {
+  display: none;
+}</style></head>
+<body data-page="what-is-vaarn.md" class="ready sticky">
+  <main><button class="sidebar-toggle" aria-label="Menu"><div class="sidebar-toggle-button"><span></span><span></span><span></span></div></button><aside class="sidebar"><div class="search"><div class="input-wrap">
+      <input type="search" value="" aria-label="Search text" placeholder="Type to search">
+      <div class="clear-button">
+        <svg width="26" height="24">
+          <circle cx="12" cy="12" r="11" fill="#ccc"></circle>
+          <path stroke="white" stroke-width="2" d="M8.25,8.25,15.75,15.75"></path>
+          <path stroke="white" stroke-width="2" d="M8.25,15.75,15.75,8.25"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="results-panel"></div>
+    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="/">VAULTS OF VAARN</a></h1><div class="sidebar-nav"><ul><li><p><a href="#/" title="Home">Home</a></p></li><li><p class="active"><a href="#/what-is-vaarn" title="What is Vaarn?">What is Vaarn?</a></p></li><li><p><a href="#/creating-characters" title="Creating Characters">Creating Characters</a></p><ul><li><a href="#/ancestries" title="Ancestries">Ancestries</a></li><li><a href="#/equipment" title="Equipment">Equipment</a></li><li><a href="#/exotica" title="Exotica">Exotica</a></li><li><a href="#/mystic-gifts" title="Mystic Gifts">Mystic Gifts</a></li><li><a href="#/cybernetics" title="Cybernetics">Cybernetics</a></li></ul></li><li><p><a href="#/basic-rules" title="Basic Rules">Basic Rules</a></p></li><li><p><a href="#/referee-rules" title="Referee Rules">Referee Rules</a></p></li><li><p><a href="#/content-generators" title="Content Generators">Content Generators</a></p></li><li><p><a href="#/vehicles" title="Transport in Vaarn">Transport in Vaarn</a></p></li><li><p><a href="#/" title="Regions of Vaarn">Regions of Vaarn</a></p><ul><li><a href="#/regions/gnomon" title="Gnomon">Gnomon</a></li><li><a href="#/regions/the-interior" title="The Interior">The Interior</a></li></ul></li><li><p><a href="#/VaultsGenerator" title="Creating Vaults">Creating Vaults</a></p></li><li><p><a href="#/alchemy" title="Alchemy">Alchemy</a></p></li><li><p><a href="#/bestiary" title="Bestiary">Bestiary</a></p></li><li><p><a href="#/tongues-of-vaarn" title="Tongues of Vaarn">Tongues of Vaarn</a></p></li><li><p><a href="#/titans" title="Titans of a Faded Age">Titans of a Faded Age</a></p></li><li><p><a href="#/resources" title="Resources">Resources</a></p></li><li><p><a href="#/acknowledgements" title="Acknowledgements">Acknowledgements</a></p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><p style="text-indent: 30px;">Vaarn! I curse each letter of the name.</p>
+<p style="text-indent: 30px;">I curse the blue sand that infiltrates every pore of my body, the creeping sand, which each night swallows a little more of the final camp we have erected upon the face of this pitiless azure desolation. I curse the red sun that rises each morning to scorch the skin from our scalps; that great and gory globe, which the sages tell us is dying, yet seems to me, hanging above the lapis wastelands, to be full of malevolent life.</p>
+<p style="text-indent: 30px;">Vaarn! I curse you! I curse this land that has stolen the tears from its peoples’ eyes, this land that swallows armies and poets and aeons as if they all, every work of every man, were but one more grain of mazarine sand. Vaarn! Three times I curse you, for I fear I will see no other land again.</p>
+
+<p style="text-align: right;">- Final testament of Idris Ida-Null,<br>
+Hegemony Cartographer</p>
+
+<h1 id="what-is-vaarn"><a href="#/what-is-vaarn?id=what-is-vaarn" data-id="what-is-vaarn" class="anchor"><span>What is Vaarn?</span></a></h1><p>Vaarn is a science-fantasy RPG setting. It draws inspiration from novels like Dune, Hyperion, The Book of the New Sun, and the graphic novels of Moebius. If you haven’t read those that’s totally fine, it will make my theft seem original.</p><p>Basically the sun is going out, it’s the end of history, and your characters are combing through the wreckage of the unimaginable eras of the future. Everything that could possibly happen has already happened and faded to dust. Vaarn is an anti-canon setting, where nobody can agree on the world’s history and ultimately it doesn't matter. However, there are some facts about Vaarn that are known for sure:</p><ol><li>Vaarn is a sky-blue desert littered with the ruins of the far future.  </li><li>Vaarn is inhabited mainly by true-kin (humans), cacogen (mutants), synths (robots), newbeasts (sapient animals), and mycomorphs (fungus-men).  </li><li>The sun is a dying red giant. It won’t go out in a human lifetime, but synths have reason to be concerned.  </li><li>Vaarn is both archaic and futuristic. Think sword fights inside the wrecked husks of ancient spaceships.  </li><li>There’s a place to the south called the New Hegemony. It’s like the Roman Empire. Theoretically the Hegemony rules Vaarn, but they have little presence besides a few fortified border towns.  </li><li>Nanomachines are inside everything, and it’s normal to see wild animals with cameras growing out of their flesh or humans with parasitic cyborg limbs.  </li><li>There was a Great Collapse, which destroyed most of human civilisation.  </li><li>Before the Collapse, humanity was ruled by the Autarchy, a planet-wide dictatorship enacted by a lineage of genetically modified God-kings.  </li><li>Before the reign of the Autarchs, the Urth was ruled by AIs called the Titans. They were overthrown, but the details of that conflict are lost to history.  </li></ol><p>Finally and most importantly, Vaarn is never the same twice. The fall of the dice determines how your own version of the setting develops. Readers are encouraged to build on this material and make Vaarn their own.</p><div class="docsify-pagination-container">
+        <div class="pagination-item pagination-item--previous">
+          <a href="#/">
+            <div class="pagination-item-label">
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="8,2 2,8 8,14"></polyline>
+              </svg>
+              <span>PREVIOUS</span>
+            </div>
+            <div class="pagination-item-title">Home</div>
+      <div class="pagination-item-subtitle">Home</div></a>
+        </div>
+      
+        <div class="pagination-item pagination-item--next">
+          <a href="#/creating-characters">
+            <div class="pagination-item-label">
+              <span>NEXT</span>
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="2,2 8,8 2,14"></polyline>
+              </svg>
+            </div>
+            <div class="pagination-item-title">Creating Characters</div>
+      <div class="pagination-item-subtitle">Creating Characters</div></a>
+        </div>
+      </div><hr>
+<p>Vaults of Vaarn was created by <a href="https://graculusdroog.itch.io/" target="_blank" rel="noopener">Leo Hunt</a> and licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> </p></article></section></main>
+  <script>
+    window.$docsify = {
+      name: 'VAULTS OF VAARN',
+      auto2top: true,
+      loadFooter: '_footer.md',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      sidebarDisplayLevel: 1,
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true
+      },
+      search: 'auto',
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- plugins -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+
+<div class="progress" style="opacity: 0; width: 0%;"></div></body></html>
+<body data-page="what-is-vaarn.md" class="ready sticky">
+  <main><button class="sidebar-toggle" aria-label="Menu"><div class="sidebar-toggle-button"><span></span><span></span><span></span></div></button><aside class="sidebar"><div class="search"><div class="input-wrap">
+      <input type="search" value="" aria-label="Search text" placeholder="Type to search">
+      <div class="clear-button">
+        <svg width="26" height="24">
+          <circle cx="12" cy="12" r="11" fill="#ccc"></circle>
+          <path stroke="white" stroke-width="2" d="M8.25,8.25,15.75,15.75"></path>
+          <path stroke="white" stroke-width="2" d="M8.25,15.75,15.75,8.25"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="results-panel"></div>
+    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="/">VAULTS OF VAARN</a></h1><div class="sidebar-nav"><ul><li><p><a href="#/" title="Home">Home</a></p></li><li><p class="active"><a href="#/what-is-vaarn" title="What is Vaarn?">What is Vaarn?</a></p></li><li><p><a href="#/creating-characters" title="Creating Characters">Creating Characters</a></p><ul><li><a href="#/ancestries" title="Ancestries">Ancestries</a></li><li><a href="#/equipment" title="Equipment">Equipment</a></li><li><a href="#/exotica" title="Exotica">Exotica</a></li><li><a href="#/mystic-gifts" title="Mystic Gifts">Mystic Gifts</a></li><li><a href="#/cybernetics" title="Cybernetics">Cybernetics</a></li></ul></li><li><p><a href="#/basic-rules" title="Basic Rules">Basic Rules</a></p></li><li><p><a href="#/referee-rules" title="Referee Rules">Referee Rules</a></p></li><li><p><a href="#/content-generators" title="Content Generators">Content Generators</a></p></li><li><p><a href="#/vehicles" title="Transport in Vaarn">Transport in Vaarn</a></p></li><li><p><a href="#/" title="Regions of Vaarn">Regions of Vaarn</a></p><ul><li><a href="#/regions/gnomon" title="Gnomon">Gnomon</a></li><li><a href="#/regions/the-interior" title="The Interior">The Interior</a></li></ul></li><li><p><a href="#/VaultsGenerator" title="Creating Vaults">Creating Vaults</a></p></li><li><p><a href="#/alchemy" title="Alchemy">Alchemy</a></p></li><li><p><a href="#/bestiary" title="Bestiary">Bestiary</a></p></li><li><p><a href="#/tongues-of-vaarn" title="Tongues of Vaarn">Tongues of Vaarn</a></p></li><li><p><a href="#/titans" title="Titans of a Faded Age">Titans of a Faded Age</a></p></li><li><p><a href="#/resources" title="Resources">Resources</a></p></li><li><p><a href="#/acknowledgements" title="Acknowledgements">Acknowledgements</a></p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><p style="text-indent: 30px;">Vaarn! I curse each letter of the name.</p>
+<p style="text-indent: 30px;">I curse the blue sand that infiltrates every pore of my body, the creeping sand, which each night swallows a little more of the final camp we have erected upon the face of this pitiless azure desolation. I curse the red sun that rises each morning to scorch the skin from our scalps; that great and gory globe, which the sages tell us is dying, yet seems to me, hanging above the lapis wastelands, to be full of malevolent life.</p>
+<p style="text-indent: 30px;">Vaarn! I curse you! I curse this land that has stolen the tears from its peoples’ eyes, this land that swallows armies and poets and aeons as if they all, every work of every man, were but one more grain of mazarine sand. Vaarn! Three times I curse you, for I fear I will see no other land again.</p>
+
+<p style="text-align: right;">- Final testament of Idris Ida-Null,<br>
+Hegemony Cartographer</p>
+
+<h1 id="what-is-vaarn"><a href="#/what-is-vaarn?id=what-is-vaarn" data-id="what-is-vaarn" class="anchor"><span>What is Vaarn?</span></a></h1><p>Vaarn is a science-fantasy RPG setting. It draws inspiration from novels like Dune, Hyperion, The Book of the New Sun, and the graphic novels of Moebius. If you haven’t read those that’s totally fine, it will make my theft seem original.</p><p>Basically the sun is going out, it’s the end of history, and your characters are combing through the wreckage of the unimaginable eras of the future. Everything that could possibly happen has already happened and faded to dust. Vaarn is an anti-canon setting, where nobody can agree on the world’s history and ultimately it doesn't matter. However, there are some facts about Vaarn that are known for sure:</p><ol><li>Vaarn is a sky-blue desert littered with the ruins of the far future.  </li><li>Vaarn is inhabited mainly by true-kin (humans), cacogen (mutants), synths (robots), newbeasts (sapient animals), and mycomorphs (fungus-men).  </li><li>The sun is a dying red giant. It won’t go out in a human lifetime, but synths have reason to be concerned.  </li><li>Vaarn is both archaic and futuristic. Think sword fights inside the wrecked husks of ancient spaceships.  </li><li>There’s a place to the south called the New Hegemony. It’s like the Roman Empire. Theoretically the Hegemony rules Vaarn, but they have little presence besides a few fortified border towns.  </li><li>Nanomachines are inside everything, and it’s normal to see wild animals with cameras growing out of their flesh or humans with parasitic cyborg limbs.  </li><li>There was a Great Collapse, which destroyed most of human civilisation.  </li><li>Before the Collapse, humanity was ruled by the Autarchy, a planet-wide dictatorship enacted by a lineage of genetically modified God-kings.  </li><li>Before the reign of the Autarchs, the Urth was ruled by AIs called the Titans. They were overthrown, but the details of that conflict are lost to history.  </li></ol><p>Finally and most importantly, Vaarn is never the same twice. The fall of the dice determines how your own version of the setting develops. Readers are encouraged to build on this material and make Vaarn their own.</p><div class="docsify-pagination-container">
+        <div class="pagination-item pagination-item--previous">
+          <a href="#/">
+            <div class="pagination-item-label">
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="8,2 2,8 8,14"></polyline>
+              </svg>
+              <span>PREVIOUS</span>
+            </div>
+            <div class="pagination-item-title">Home</div>
+      <div class="pagination-item-subtitle">Home</div></a>
+        </div>
+      
+        <div class="pagination-item pagination-item--next">
+          <a href="#/creating-characters">
+            <div class="pagination-item-label">
+              <span>NEXT</span>
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="2,2 8,8 2,14"></polyline>
+              </svg>
+            </div>
+            <div class="pagination-item-title">Creating Characters</div>
+      <div class="pagination-item-subtitle">Creating Characters</div></a>
+        </div>
+      </div><hr>
+<p>Vaults of Vaarn was created by <a href="https://graculusdroog.itch.io/" target="_blank" rel="noopener">Leo Hunt</a> and licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> </p></article></section></main>
+  <script>
+    window.$docsify = {
+      name: 'VAULTS OF VAARN',
+      auto2top: true,
+      loadFooter: '_footer.md',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      sidebarDisplayLevel: 1,
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true
+      },
+      search: 'auto',
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- plugins -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+
+<div class="progress" style="opacity: 0; width: 0%;"></div></body>
+
+<body data-page="what-is-vaarn.md" class="ready sticky">
+  <main><button class="sidebar-toggle" aria-label="Menu"><div class="sidebar-toggle-button"><span></span><span></span><span></span></div></button><aside class="sidebar"><div class="search"><div class="input-wrap">
+      <input type="search" value="" aria-label="Search text" placeholder="Type to search">
+      <div class="clear-button">
+        <svg width="26" height="24">
+          <circle cx="12" cy="12" r="11" fill="#ccc"></circle>
+          <path stroke="white" stroke-width="2" d="M8.25,8.25,15.75,15.75"></path>
+          <path stroke="white" stroke-width="2" d="M8.25,15.75,15.75,8.25"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="results-panel"></div>
+    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="/">VAULTS OF VAARN</a></h1><div class="sidebar-nav"><ul><li><p><a href="#/" title="Home">Home</a></p></li><li><p class="active"><a href="#/what-is-vaarn" title="What is Vaarn?">What is Vaarn?</a></p></li><li><p><a href="#/creating-characters" title="Creating Characters">Creating Characters</a></p><ul><li><a href="#/ancestries" title="Ancestries">Ancestries</a></li><li><a href="#/equipment" title="Equipment">Equipment</a></li><li><a href="#/exotica" title="Exotica">Exotica</a></li><li><a href="#/mystic-gifts" title="Mystic Gifts">Mystic Gifts</a></li><li><a href="#/cybernetics" title="Cybernetics">Cybernetics</a></li></ul></li><li><p><a href="#/basic-rules" title="Basic Rules">Basic Rules</a></p></li><li><p><a href="#/referee-rules" title="Referee Rules">Referee Rules</a></p></li><li><p><a href="#/content-generators" title="Content Generators">Content Generators</a></p></li><li><p><a href="#/vehicles" title="Transport in Vaarn">Transport in Vaarn</a></p></li><li><p><a href="#/" title="Regions of Vaarn">Regions of Vaarn</a></p><ul><li><a href="#/regions/gnomon" title="Gnomon">Gnomon</a></li><li><a href="#/regions/the-interior" title="The Interior">The Interior</a></li></ul></li><li><p><a href="#/VaultsGenerator" title="Creating Vaults">Creating Vaults</a></p></li><li><p><a href="#/alchemy" title="Alchemy">Alchemy</a></p></li><li><p><a href="#/bestiary" title="Bestiary">Bestiary</a></p></li><li><p><a href="#/tongues-of-vaarn" title="Tongues of Vaarn">Tongues of Vaarn</a></p></li><li><p><a href="#/titans" title="Titans of a Faded Age">Titans of a Faded Age</a></p></li><li><p><a href="#/resources" title="Resources">Resources</a></p></li><li><p><a href="#/acknowledgements" title="Acknowledgements">Acknowledgements</a></p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><p style="text-indent: 30px;">Vaarn! I curse each letter of the name.</p>
+<p style="text-indent: 30px;">I curse the blue sand that infiltrates every pore of my body, the creeping sand, which each night swallows a little more of the final camp we have erected upon the face of this pitiless azure desolation. I curse the red sun that rises each morning to scorch the skin from our scalps; that great and gory globe, which the sages tell us is dying, yet seems to me, hanging above the lapis wastelands, to be full of malevolent life.</p>
+<p style="text-indent: 30px;">Vaarn! I curse you! I curse this land that has stolen the tears from its peoples’ eyes, this land that swallows armies and poets and aeons as if they all, every work of every man, were but one more grain of mazarine sand. Vaarn! Three times I curse you, for I fear I will see no other land again.</p>
+
+<p style="text-align: right;">- Final testament of Idris Ida-Null,<br>
+Hegemony Cartographer</p>
+
+<h1 id="what-is-vaarn"><a href="#/what-is-vaarn?id=what-is-vaarn" data-id="what-is-vaarn" class="anchor"><span>What is Vaarn?</span></a></h1><p>Vaarn is a science-fantasy RPG setting. It draws inspiration from novels like Dune, Hyperion, The Book of the New Sun, and the graphic novels of Moebius. If you haven’t read those that’s totally fine, it will make my theft seem original.</p><p>Basically the sun is going out, it’s the end of history, and your characters are combing through the wreckage of the unimaginable eras of the future. Everything that could possibly happen has already happened and faded to dust. Vaarn is an anti-canon setting, where nobody can agree on the world’s history and ultimately it doesn't matter. However, there are some facts about Vaarn that are known for sure:</p><ol><li>Vaarn is a sky-blue desert littered with the ruins of the far future.  </li><li>Vaarn is inhabited mainly by true-kin (humans), cacogen (mutants), synths (robots), newbeasts (sapient animals), and mycomorphs (fungus-men).  </li><li>The sun is a dying red giant. It won’t go out in a human lifetime, but synths have reason to be concerned.  </li><li>Vaarn is both archaic and futuristic. Think sword fights inside the wrecked husks of ancient spaceships.  </li><li>There’s a place to the south called the New Hegemony. It’s like the Roman Empire. Theoretically the Hegemony rules Vaarn, but they have little presence besides a few fortified border towns.  </li><li>Nanomachines are inside everything, and it’s normal to see wild animals with cameras growing out of their flesh or humans with parasitic cyborg limbs.  </li><li>There was a Great Collapse, which destroyed most of human civilisation.  </li><li>Before the Collapse, humanity was ruled by the Autarchy, a planet-wide dictatorship enacted by a lineage of genetically modified God-kings.  </li><li>Before the reign of the Autarchs, the Urth was ruled by AIs called the Titans. They were overthrown, but the details of that conflict are lost to history.  </li></ol><p>Finally and most importantly, Vaarn is never the same twice. The fall of the dice determines how your own version of the setting develops. Readers are encouraged to build on this material and make Vaarn their own.</p><div class="docsify-pagination-container">
+        <div class="pagination-item pagination-item--previous">
+          <a href="#/">
+            <div class="pagination-item-label">
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="8,2 2,8 8,14"></polyline>
+              </svg>
+              <span>PREVIOUS</span>
+            </div>
+            <div class="pagination-item-title">Home</div>
+      <div class="pagination-item-subtitle">Home</div></a>
+        </div>
+      
+        <div class="pagination-item pagination-item--next">
+          <a href="#/creating-characters">
+            <div class="pagination-item-label">
+              <span>NEXT</span>
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="2,2 8,8 2,14"></polyline>
+              </svg>
+            </div>
+            <div class="pagination-item-title">Creating Characters</div>
+      <div class="pagination-item-subtitle">Creating Characters</div></a>
+        </div>
+      </div><hr>
+<p>Vaults of Vaarn was created by <a href="https://graculusdroog.itch.io/" target="_blank" rel="noopener">Leo Hunt</a> and licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> </p></article></section></main>
+  <script>
+    window.$docsify = {
+      name: 'VAULTS OF VAARN',
+      auto2top: true,
+      loadFooter: '_footer.md',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      sidebarDisplayLevel: 1,
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true
+      },
+      search: 'auto',
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- plugins -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+
+<div class="progress" style="opacity: 0; width: 0%;"></div></body>
+
+<body data-page="what-is-vaarn.md" class="ready sticky">
+  <main><button class="sidebar-toggle" aria-label="Menu"><div class="sidebar-toggle-button"><span></span><span></span><span></span></div></button><aside class="sidebar"><div class="search"><div class="input-wrap">
+      <input type="search" value="" aria-label="Search text" placeholder="Type to search">
+      <div class="clear-button">
+        <svg width="26" height="24">
+          <circle cx="12" cy="12" r="11" fill="#ccc"></circle>
+          <path stroke="white" stroke-width="2" d="M8.25,8.25,15.75,15.75"></path>
+          <path stroke="white" stroke-width="2" d="M8.25,15.75,15.75,8.25"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="results-panel"></div>
+    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="/">VAULTS OF VAARN</a></h1><div class="sidebar-nav"><ul><li><p><a href="#/" title="Home">Home</a></p></li><li><p class="active"><a href="#/what-is-vaarn" title="What is Vaarn?">What is Vaarn?</a></p></li><li><p><a href="#/creating-characters" title="Creating Characters">Creating Characters</a></p><ul><li><a href="#/ancestries" title="Ancestries">Ancestries</a></li><li><a href="#/equipment" title="Equipment">Equipment</a></li><li><a href="#/exotica" title="Exotica">Exotica</a></li><li><a href="#/mystic-gifts" title="Mystic Gifts">Mystic Gifts</a></li><li><a href="#/cybernetics" title="Cybernetics">Cybernetics</a></li></ul></li><li><p><a href="#/basic-rules" title="Basic Rules">Basic Rules</a></p></li><li><p><a href="#/referee-rules" title="Referee Rules">Referee Rules</a></p></li><li><p><a href="#/content-generators" title="Content Generators">Content Generators</a></p></li><li><p><a href="#/vehicles" title="Transport in Vaarn">Transport in Vaarn</a></p></li><li><p><a href="#/" title="Regions of Vaarn">Regions of Vaarn</a></p><ul><li><a href="#/regions/gnomon" title="Gnomon">Gnomon</a></li><li><a href="#/regions/the-interior" title="The Interior">The Interior</a></li></ul></li><li><p><a href="#/VaultsGenerator" title="Creating Vaults">Creating Vaults</a></p></li><li><p><a href="#/alchemy" title="Alchemy">Alchemy</a></p></li><li><p><a href="#/bestiary" title="Bestiary">Bestiary</a></p></li><li><p><a href="#/tongues-of-vaarn" title="Tongues of Vaarn">Tongues of Vaarn</a></p></li><li><p><a href="#/titans" title="Titans of a Faded Age">Titans of a Faded Age</a></p></li><li><p><a href="#/resources" title="Resources">Resources</a></p></li><li><p><a href="#/acknowledgements" title="Acknowledgements">Acknowledgements</a></p></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><p style="text-indent: 30px;">Vaarn! I curse each letter of the name.</p>
+<p style="text-indent: 30px;">I curse the blue sand that infiltrates every pore of my body, the creeping sand, which each night swallows a little more of the final camp we have erected upon the face of this pitiless azure desolation. I curse the red sun that rises each morning to scorch the skin from our scalps; that great and gory globe, which the sages tell us is dying, yet seems to me, hanging above the lapis wastelands, to be full of malevolent life.</p>
+<p style="text-indent: 30px;">Vaarn! I curse you! I curse this land that has stolen the tears from its peoples’ eyes, this land that swallows armies and poets and aeons as if they all, every work of every man, were but one more grain of mazarine sand. Vaarn! Three times I curse you, for I fear I will see no other land again.</p>
+
+<p style="text-align: right;">- Final testament of Idris Ida-Null,<br>
+Hegemony Cartographer</p>
+
+<h1 id="what-is-vaarn"><a href="#/what-is-vaarn?id=what-is-vaarn" data-id="what-is-vaarn" class="anchor"><span>What is Vaarn?</span></a></h1><p>Vaarn is a science-fantasy RPG setting. It draws inspiration from novels like Dune, Hyperion, The Book of the New Sun, and the graphic novels of Moebius. If you haven’t read those that’s totally fine, it will make my theft seem original.</p><p>Basically the sun is going out, it’s the end of history, and your characters are combing through the wreckage of the unimaginable eras of the future. Everything that could possibly happen has already happened and faded to dust. Vaarn is an anti-canon setting, where nobody can agree on the world’s history and ultimately it doesn't matter. However, there are some facts about Vaarn that are known for sure:</p><ol><li>Vaarn is a sky-blue desert littered with the ruins of the far future.  </li><li>Vaarn is inhabited mainly by true-kin (humans), cacogen (mutants), synths (robots), newbeasts (sapient animals), and mycomorphs (fungus-men).  </li><li>The sun is a dying red giant. It won’t go out in a human lifetime, but synths have reason to be concerned.  </li><li>Vaarn is both archaic and futuristic. Think sword fights inside the wrecked husks of ancient spaceships.  </li><li>There’s a place to the south called the New Hegemony. It’s like the Roman Empire. Theoretically the Hegemony rules Vaarn, but they have little presence besides a few fortified border towns.  </li><li>Nanomachines are inside everything, and it’s normal to see wild animals with cameras growing out of their flesh or humans with parasitic cyborg limbs.  </li><li>There was a Great Collapse, which destroyed most of human civilisation.  </li><li>Before the Collapse, humanity was ruled by the Autarchy, a planet-wide dictatorship enacted by a lineage of genetically modified God-kings.  </li><li>Before the reign of the Autarchs, the Urth was ruled by AIs called the Titans. They were overthrown, but the details of that conflict are lost to history.  </li></ol><p>Finally and most importantly, Vaarn is never the same twice. The fall of the dice determines how your own version of the setting develops. Readers are encouraged to build on this material and make Vaarn their own.</p><div class="docsify-pagination-container">
+        <div class="pagination-item pagination-item--previous">
+          <a href="#/">
+            <div class="pagination-item-label">
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="8,2 2,8 8,14"></polyline>
+              </svg>
+              <span>PREVIOUS</span>
+            </div>
+            <div class="pagination-item-title">Home</div>
+      <div class="pagination-item-subtitle">Home</div></a>
+        </div>
+      
+        <div class="pagination-item pagination-item--next">
+          <a href="#/creating-characters">
+            <div class="pagination-item-label">
+              <span>NEXT</span>
+              <svg width="10" height="16" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" vector-effect="non-scaling-stroke" points="2,2 8,8 2,14"></polyline>
+              </svg>
+            </div>
+            <div class="pagination-item-title">Creating Characters</div>
+      <div class="pagination-item-subtitle">Creating Characters</div></a>
+        </div>
+      </div><hr>
+<p>Vaults of Vaarn was created by <a href="https://graculusdroog.itch.io/" target="_blank" rel="noopener">Leo Hunt</a> and licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> </p></article></section></main>
+  <script>
+    window.$docsify = {
+      name: 'VAULTS OF VAARN',
+      auto2top: true,
+      loadFooter: '_footer.md',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      sidebarDisplayLevel: 1,
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true
+      },
+      search: 'auto',
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- plugins -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+
+<div class="progress" style="opacity: 0; width: 0%;"></div></body>
